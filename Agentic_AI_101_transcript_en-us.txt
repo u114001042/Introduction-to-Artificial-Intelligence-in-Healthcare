@@ -1,0 +1,2644 @@
+Transcript Powered by AI
+
+Agentic AI 101
+
+
+00:05
+It's been an amazing GTC. I want
+to start off, you know, we're
+
+00:07
+talking here about AI agents and
+these amazing assistants that are
+
+00:10
+going to help us be more productive
+
+00:28
+For those of you who haven't
+been to the gear store, inside
+
+00:32
+the convention center, one
+of the things they're selling
+
+00:34
+is these amazing t-shirts.
+
+00:36
+Each GTC, we do a shirt that kind
+of diagrams out the conference
+
+00:41
+and the place that we're at.
+
+00:43
+And Lisa Burns designed this shirt.
+
+00:46
+This is made by a real artist,
+and they're spectacular.
+
+00:49
+Lisa was signing these at the...
+
+00:51
+at the gear store, and I thought
+this was really cool.
+
+00:54
+My daughter talks to me a lot,
+she's an artist, and she says, Dad,
+
+00:57
+is AI gonna put all artists away?
+
+01:01
+I'm like, no, AI's gonna
+give artists amazing tools,
+
+01:03
+but I know she'll like that
+this was 100% human.
+
+01:09
+Just before we kick this off,
+I wanted to ask all of you,
+
+01:11
+I know this is the Agentic
+AI 101 session, how many of
+
+01:16
+you use some AI assistant, AI tool
+regularly, like on a daily basis?
+
+01:21
+Is it, all right,
+most hands went up.
+
+01:24
+This is cool, yeah, you're at
+GTC, so I think that's fair.
+
+01:28
+But what I wanted to mention
+was that even here in the
+
+01:31
+US, only about 16% of the kind
+of adult population uses some AI
+
+01:37
+tool right now on a regular basis.
+
+01:41
+You know, as you're interacting
+with your colleagues, especially
+
+01:44
+in your work environment,
+these tools are amazing
+
+01:47
+assistance for all of us.
+
+01:48
+Some are afraid to use some
+of these tools, but the best
+
+01:53
+way to start is literally
+just jump in two feet first.
+
+01:56
+And the way you interact with
+most of these tools is pure human.
+
+01:59
+You just talk to it like you're...
+
+02:02
+Talking to a friend or a coworker
+or a family member.
+
+02:05
+So as you leave GTC and you
+go back into the real world,
+
+02:10
+motivate those around you to
+just give it a shot and try it out.
+
+02:15
+So one thing I did, just as
+examples of using AI assistance,
+
+02:20
+one thing that I did was I
+loaded my presentation.
+
+02:24
+into my personal assistant
+that I built for myself.
+
+02:28
+And I asked it, okay, so in
+this presentation, about what
+
+02:31
+time will the audience get
+bored and fall asleep?
+
+02:34
+And it said around slide 26.
+
+02:36
+So I trimmed it back to 15 slides.
+
+02:38
+So let's see how it goes.
+
+02:42
+So AI is rapidly, rapidly evolving.
+
+02:46
+It was just a few years ago
+that the kind of big bang
+
+02:49
+of modern AI happened, and
+we all had access to ChatGPT, where
+
+02:54
+not only could we ask it questions,
+and it gave us a quick response,
+
+02:57
+but we could ask follow-up
+questions, and we could have
+
+02:59
+a conversation just like we have
+with our peers and our friends.
+
+03:05
+And we've been using these
+tools for some time now, and
+
+03:07
+it was just a year ago.
+
+03:09
+Then another
+amazing thing happened.
+
+03:11
+Actually, it was when OpenAI
+released the O1 model, and AI could
+
+03:16
+start reasoning, where AI could
+take a problem or a prompt, break
+
+03:21
+it down, think about it, create
+a plan of how it would work through
+
+03:25
+this challenge, work it, work
+it, work it, evaluate its answer,
+
+03:28
+and give you back a response.
+
+03:30
+It would take a little bit
+longer, it would generate
+
+03:32
+a lot more tokens, but it would
+give you an answer that was way
+
+03:35
+more helpful or way more valuable.
+
+03:37
+That was only a year ago, and then,
+
+03:39
+DeepSeek took reasoning and put
+it into their large language model
+
+03:44
+and opened it up for the world,
+and it really changed everything.
+
+03:46
+And a lot of what we're seeing
+now in Agentic AI is based
+
+03:51
+on the ability that these
+AI models can reason.
+
+03:55
+And then it was just, it felt
+like just a month ago, where
+
+03:59
+things are changing again, where
+the OpenClaw project was announced
+
+04:03
+and made available to everybody.
+
+04:06
+And now we're feeling...
+
+04:08
+Essentially, AI not just help
+us out and give us answers
+
+04:12
+and information, but actually do
+work for us, these more autonomous,
+
+04:17
+long-running, self-evolving agents.
+
+04:19
+So we'll walk through a lot
+of this in the talk today.
+
+04:24
+So I talked about OpenClaw.
+
+04:26
+And just to give you a perspective,
+Jensen did a, how many of
+
+04:29
+you watched the keynote or
+went to the keynote?
+
+04:32
+Awesome, the keynote's
+always a ton of fun.
+
+04:33
+Not only is it a lot of
+fun, you learn a lot.
+
+04:36
+One of the things Jensen showed
+in his keynote was a really
+
+04:39
+fun video on the impact of what
+we're seeing with agentic AI today.
+
+04:44
+And essentially created a
+video of this chart.
+
+04:47
+And you look at the impact
+that projects like Linux,
+
+04:51
+for example, I mean, Linux has
+essentially been the underpinnings
+
+04:55
+of the digital economy.
+
+04:57
+And then you have
+projects like React.
+
+04:59
+I mean, the mobile web or
+the mobile internet has also
+
+05:03
+changed the way that we, not
+only the way that we work,
+
+05:06
+but the way that we interact with.
+
+05:08
+with the rest of society.
+
+05:10
+And you see how
+those projects grew.
+
+05:12
+And look at how the OpenClaw
+project has grown so far, just
+
+05:16
+amongst the developer community.
+
+05:18
+Some think it's like a
+bug, but it's not.
+
+05:20
+That's actually like a
+straight vertical line.
+
+05:23
+It's going to be amazing to
+see where it goes.
+
+05:24
+It's going to allow not just
+developers to build new amazing
+
+05:29
+applications and tools and
+things that are going to help us
+
+05:32
+out, but it's also going to enable
+us to even get more engaged with
+
+05:36
+this AI technology and building
+personal assistants and things
+
+05:40
+that will help us as individuals.
+
+05:43
+But, you know, a lot of people
+think as AI is evolving really
+
+05:47
+quickly that we're just, you know,
+everything's changing and we can't
+
+05:50
+keep up with it and, oh, my gosh,
+I've got to learn a new thing.
+
+05:54
+But the reality is that these
+different types of AI are
+
+05:57
+going to stick around.
+
+05:58
+We're not going to just have
+one type of AI that is going
+
+06:01
+to, you know, help us be more
+efficient, help us do more work.
+
+06:07
+Sometimes you just need a
+chat bot that you can ask
+
+06:10
+a simple question and really
+fast, near instantaneously, it will
+
+06:14
+give you an answer that you need.
+
+06:16
+And we still need those.
+
+06:17
+You don't want to ask it a
+super simple question like,
+
+06:20
+hey, what's the weather today?
+
+06:21
+And then 10 minutes later
+it comes back to you with
+
+06:23
+a really long, crazy answer.
+
+06:25
+No, you just want it to tell
+you what the weather is today.
+
+06:28
+But then sometimes you want
+these chatbots to be able to
+
+06:31
+Like we talked about with
+what DeepSeek is able to do
+
+06:34
+with reasoning to be able
+to break the problem down
+
+06:37
+and think a little bit deeper.
+
+06:39
+Sometimes you want these AI
+agents to help you do really
+
+06:43
+hard things like assistance.
+
+06:45
+The world of software programming
+has completely changed now with
+
+06:51
+AI agents that can code, that can
+write code, that can review code.
+
+06:56
+It's changed the industry
+of software development.
+
+07:00
+The same when it comes to
+researching, I mean, research,
+
+07:03
+I mean, I'm sure we've all,
+we've all done this.
+
+07:05
+Sometimes we've, we've had a
+topic we want to learn about,
+
+07:09
+whether it is just for personal
+education, or we need to research
+
+07:14
+a topic for our job, and we
+go away and we spend, we spend
+
+07:18
+days or weeks researching a topic.
+
+07:20
+Now when AI has access to all the
+information essentially in the
+
+07:25
+public sphere and also has a lot of
+the information that you've given
+
+07:30
+it in your private environment,
+it can do amazing deep research
+
+07:34
+projects for you and in a matter of
+minutes can give you a report that
+
+07:38
+could have taken you weeks to do.
+
+07:41
+Agents now are going to start
+evolving on their own.
+
+07:44
+We're starting to see this,
+especially with these open-claw
+
+07:47
+examples, where agents not
+only are using the kind of
+
+07:51
+tools and skills that it inherently
+has access to, but if it can't
+
+07:55
+figure out the problem,
+
+07:56
+It will code up a new ability
+to do something and try and
+
+08:00
+figure it out on its own.
+
+08:02
+And then lastly, we're seeing
+agents work with agents.
+
+08:07
+So a multi-agent system solving
+problems, just like we work
+
+08:10
+with our teammates and our
+coworkers to get hard problems
+
+08:14
+done, agents are going to
+start working with other agents.
+
+08:19
+So then it's like, well, how
+does an agent work?
+
+08:21
+I know a lot of you, especially
+if you haven't gotten deep into
+
+08:26
+the way that agents work, you think
+that, oh, OK, an agent is a amazing
+
+08:30
+AI model like GPT or Claude.
+
+08:33
+And it has a UI wrapped around it,
+so it has a human-like interface.
+
+08:37
+And you ask the model a question,
+the model responds.
+
+08:39
+But the reality is an AI agent
+is much more complex than that.
+
+08:43
+And an AI agent kind of works
+like how a computer works.
+
+08:47
+So an AI agent takes in a
+prompt, and now it's not just
+
+08:50
+asking a question, you can
+give it all types of information.
+
+08:53
+You can give it text, you
+can give it images, you can
+
+08:56
+give it video, you can give
+it scientific models, you can
+
+09:02
+give it all kinds of things, and
+it can work with this information.
+
+09:05
+AI agents now have memory.
+
+09:07
+We see this as we work with
+
+09:09
+With like ChatGPT and Claude
+and Perplexity and other tools,
+
+09:14
+where sometimes we'll come back
+and we'll ask a question that's
+
+09:18
+somewhat related to something
+we were maybe asking it two
+
+09:20
+weeks ago, and it remembers that.
+
+09:21
+That's because these agents
+now have longer term memory.
+
+09:25
+Agents for a little while have
+had short-term memory, now
+
+09:27
+they have even longer-term memory.
+
+09:30
+So that requires a lot of
+infrastructure in the back
+
+09:32
+to be able to retain and understand
+the context of interacting
+
+09:37
+with you and personalization.
+
+09:39
+Agents are also a system of models.
+
+09:41
+It's not just one large language
+model sitting inside that agent.
+
+09:45
+That agent has models that
+maybe understand your speech,
+
+09:49
+your speech input.
+
+09:51
+It has models that
+understand your intent.
+
+09:53
+It can route information properly.
+
+09:56
+Obviously, it has
+large language models.
+
+09:58
+It has models that understand
+images and charts.
+
+10:02
+Many different system models are
+used to operate these agents so
+
+10:08
+it can not only get you a response
+that is very helpful and valuable,
+
+10:13
+but also do it fairly quickly.
+
+10:15
+And as people are building
+agents now, they're learning
+
+10:18
+that when they build agents
+with a mixture of different
+
+10:20
+types of models, that they
+have a higher level of success.
+
+10:24
+They may be using
+
+10:25
+An amazing frontier class cloud
+model, like GPT-5.2, but then
+
+10:30
+they may be taking an open source
+model that's much smaller, doesn't
+
+10:35
+have as much general intelligence,
+but they can customize it and
+
+10:38
+specialize it for a specific thing.
+
+10:40
+So when that specific thing
+needs to be done, the information
+
+10:42
+can be routed to that model.
+
+10:44
+That model could come up with
+a response very quickly.
+
+10:47
+The overall agent
+becomes more accurate.
+
+10:50
+It's better at what it does,
+and it's faster, so better
+
+10:54
+response time for the user.
+
+10:55
+So we're like, hey, this
+feels a lot better.
+
+10:57
+And also drives down cost by
+running that model, let's say,
+
+11:01
+more locally, or just generating
+less tokens to get to the answer.
+
+11:07
+So there's a system of models.
+
+11:08
+We talked about agents
+communicating with agents.
+
+11:11
+Agents will often have sub-agents.
+
+11:13
+So it'll have a specialty
+agent, a friend that's really,
+
+11:15
+really good at this one task.
+
+11:17
+It can route questions,
+essentially, to that agent,
+
+11:22
+get that information back,
+save that, and essentially
+
+11:25
+synthesize that with other
+responses it gets back from.
+
+11:28
+Agents can have skills.
+
+11:30
+We have skills and tools.
+
+11:31
+Tools are like, if we're doing
+carpentry, being a really
+
+11:35
+good carpenter, that's a skill.
+
+11:38
+Having access to a hammer
+and a saw, those are tools
+
+11:42
+that that carpenter can use.
+
+11:43
+So agents can be really, really
+good at things, like really
+
+11:45
+good at summarizing things,
+really good at generating
+
+11:48
+certain types of content, really
+good at understanding a specific
+
+11:51
+domain, skills that that agent has.
+
+11:54
+Agents will also have
+access to using a computer,
+
+11:56
+which is kind of cool.
+
+11:57
+Just like we use a computer,
+literally going into a user
+
+12:00
+interface and clicking around
+and navigating to gain information.
+
+12:04
+Often, a lot of agents will be
+using tools like command line
+
+12:08
+interfaces and APIs to get access
+to information, but sometimes it's
+
+12:11
+good to just be able to navigate
+a UI just like we navigate a UI.
+
+12:15
+And then access to data.
+
+12:17
+Have access to structured
+data like databases, be able
+
+12:20
+to do SQL queries on data
+just like we do, as well as access
+
+12:23
+to unstructured data like files,
+documents, PDFs, videos, and such.
+
+12:29
+So it has the knowledge of the
+domain it's in, your organization,
+
+12:33
+your company, whatever it may be.
+
+12:36
+So it has that inherent knowledge.
+
+12:38
+We'll be talking a little bit
+later about unlocking data.
+
+12:41
+So that's just generally
+how an agent works.
+
+12:44
+So has anyone been on
+the show floor yet?
+
+12:46
+All right, a lot have not.
+
+12:49
+I highly recommend today going
+to the show floor.
+
+12:51
+I'm gonna play one video demo
+that just shows how easy it
+
+12:55
+is now to build an agent that
+can do amazing things.
+
+12:58
+There's a little background
+noise, but this is real.
+
+13:00
+This is right off the show floor.
+
+13:04
+Alright, we are going to build
+a lane-chain Deep Agent with
+
+13:09
+physical wooden blocks.
+
+13:10
+So let's first pick out the
+Brain Burr Agent, that's the
+
+13:13
+LLM, and then put it down, perfect.
+
+13:15
+And we should see it in a moment.
+
+13:16
+I'm going to refresh it. I
+hope you have a good time.
+
+13:27
+Okay, cool. So that's the
+brain for our agent.
+
+13:31
+If we're happy with the brain,
+press the button.
+
+13:34
+Okay, the next thing for
+our agent is we're going
+
+13:37
+to give it some tools.
+
+13:39
+These are all MCP servers, so
+in them are multiple tools.
+
+13:42
+So pick out some
+tools that you want.
+
+13:46
+Telegram, telegram,
+telegram, telegram,
+
+13:48
+telegram, telegram, telegram.
+
+14:09
+And the thing about Deep Agents
+is it also provides things
+
+14:13
+like context window management,
+it provides things like to-do
+
+14:17
+lists and cramming, and these
+help our agent be better.
+
+14:21
+So now we can ask him things.
+
+14:23
+So we have these tools, so
+we could say, for example,
+
+14:26
+get the weather in...
+
+14:35
+This is my work group chat.
+
+14:36
+I had a group chat on Telegram,
+so you should see that first
+
+14:40
+they talked about the weather,
+then they got some updates because
+
+14:45
+they found my work group chat.
+
+14:51
+He just sent us a message
+right here on Telegram.
+
+14:55
+Nice!
+
+14:59
+So that is Hayden and Noelle.
+
+15:03
+They're doing amazing work
+on the show floor.
+
+15:04
+I highly recommend going and
+experiencing this demo.
+
+15:07
+What just happened, essentially,
+is the simplest form of programming
+
+15:10
+and building an agent.
+
+15:12
+Noelle said, okay, I want
+my brain to be clawed.
+
+15:14
+I want to have some tools.
+
+15:16
+She used Telegram and...
+
+15:20
+So, not only was the agent
+just answering a question,
+
+15:28
+which obviously we could just
+ask ChatGPT to answer me a
+
+15:30
+question, but not only that,
+it sent her the weather, and
+
+15:32
+then you can just automate that,
+say, hey, feed this information
+
+15:35
+to me every morning at 6 a.m.
+
+15:37
+when I wake up, and just the
+simplest form of building an agent.
+
+15:41
+What's really cool in this
+demo is that that agent that
+
+15:44
+Noelle built there
+
+15:47
+Hayden would give her a block,
+has a little QR code on it.
+
+15:49
+That QR code essentially takes
+you to a GitHub repository
+
+15:52
+with the code for that agent
+so Noelle can leave GTC and
+
+15:57
+keep building her agent.
+
+15:58
+So it really is simple.
+
+16:00
+I highly recommend when you
+wanna get going, just jump
+
+16:02
+in two feet first.
+
+16:03
+You're gonna learn a lot.
+
+16:04
+It doesn't mean that you're gonna
+get it right the first time,
+
+16:06
+but you'll learn and then you can
+tear it down and keep rebuilding
+
+16:10
+and it's amazing how far you'll
+get in a short period of time.
+
+16:14
+One thing we do at
+NVIDIA is that we
+
+16:18
+We build blueprints and
+examples for our developers
+
+16:21
+to quickly get going.
+
+16:23
+And some are more complex,
+like the example that you
+
+16:26
+saw with Hayden and Noel.
+
+16:28
+That example is a
+very simple example.
+
+16:30
+The example on the screen is
+a little bit more complex.
+
+16:33
+This is building a
+Deep Research Agent.
+
+16:35
+So this is an agent that
+can answer questions for
+
+16:38
+you based on your data,
+based on the information across
+
+16:41
+the Internet, and it can also
+do deep research, meaning it can
+
+16:45
+Work to give you the information
+over a longer period of
+
+16:48
+time, give you a much longer
+research, much longer, more
+
+16:50
+complex research report.
+
+16:53
+And as you see here, just
+quickly what's happening here is
+
+16:55
+that the user is asking a question.
+
+16:59
+Sometimes it just...
+
+17:00
+The question's simple and I
+can give you a quick answer.
+
+17:03
+It goes through an intent
+router and either routes you
+
+17:05
+essentially into the Deep
+Research Agent or routes you
+
+17:08
+down into the Shallow Research.
+
+17:10
+Shallow Research, it'll just
+quickly give you an answer.
+
+17:12
+But if it goes off into the
+Deep Research Agent, it'll
+
+17:15
+then go into an orchestrator.
+
+17:17
+This is an example of agents
+working with agents.
+
+17:20
+The orchestrator will figure
+out what the user wants.
+
+17:22
+It may use a much larger model that
+has frontier level intelligence.
+
+17:28
+In this case, it's GPT-5-2.
+
+17:30
+And it'll figure out what it
+wants, and then it'll send
+
+17:33
+off information to a bunch
+of workers to go help out.
+
+17:37
+And those workers will... they
+have different specialties.
+
+17:41
+Some will be good at searching
+the web, while others will
+
+17:43
+be good at retrieving information
+locally from a...
+
+17:48
+A data repository, for example,
+some will be better at processing
+
+17:51
+images, and it'll get all
+these subagents going, and
+
+17:54
+then that information will keep
+coming back into the orchestrator,
+
+17:58
+and the orchestrator will organize
+that information, and if it needs
+
+18:01
+more, it will send out additional
+requests, and that'll just
+
+18:04
+keep going, and these agents will
+use all the tools at their disposal
+
+18:08
+to get a great answer, so it's an
+example of a fairly complex agent.
+
+18:14
+And what agents like this
+also are able to achieve,
+
+18:18
+like we talked about, is by
+using different types of models for
+
+18:21
+different use cases, customizing
+models, taking a model, taking
+
+18:25
+some data, curating that data
+that may be specific to a domain or
+
+18:29
+specific to a skill, infusing that
+
+18:32
+Essentially teaching that
+model of how to do that thing
+
+18:35
+really well with that data,
+making it even more accurate,
+
+18:39
+making it even more efficient
+helps the overall application.
+
+18:43
+So we post these blueprints on
+our website at build.nvidia.com.
+
+18:48
+You can use them in whole, you can
+use them to learn, you can take
+
+18:52
+bits and pieces for them as you're
+building your own application,
+
+18:54
+but essentially we're building
+these applications for ourselves.
+
+18:58
+And then we're opening them
+up and giving them way to
+
+19:01
+the entire community.
+
+19:02
+So as we learn NVIDIA, as we
+learn with our partners, we're
+
+19:06
+opening that up to help the entire
+developer ecosystem make progress.
+
+19:10
+We're all in this together,
+we're all learning together.
+
+19:13
+What's really cool
+about this is that
+
+19:17
+Our team, and these are some
+of the best developers, best
+
+19:20
+data scientists in the world,
+that took this blueprint,
+
+19:25
+built a deep researcher, entered
+in kind of a few competitions
+
+19:30
+that are tracked on a few
+different leaderboards, and you can
+
+19:32
+see building a deep research agent
+with this open blueprint has led
+
+19:36
+them to the top of the leaderboard,
+which is super exciting.
+
+19:39
+We're very proud of the team,
+but this is all available to you.
+
+19:44
+So you don't... You can go
+use services out there, you
+
+19:46
+can also build your own AI
+when you need something that
+
+19:49
+is a little more custom.
+
+19:51
+And I'm gonna show you one
+example right now from our great
+
+19:54
+friends over at ServiceNow that
+have built a multi-agent system
+
+19:59
+to help automatically close and
+deal with customer service tickets.
+
+20:02
+Because we all know sometimes we
+have to call customer service,
+
+20:06
+or we have to chat with an agent,
+or we have to submit a ticket.
+
+20:10
+Sometimes we don't always
+get the quick response that
+
+20:13
+we'd like, but ServiceNow's
+making amazing progress on this.
+
+20:23
+A new wave of AI has arrived.
+
+20:25
+AI can go beyond answering
+what's and how's, and help do.
+
+20:31
+When enterprise service
+operations see a spike in
+
+20:34
+ticket volumes, backlogs grow.
+
+20:36
+Response times slip.
+
+20:38
+Actual work must be accelerated.
+
+20:42
+At ServiceNow, AI agents take on
+specific roles to handle service
+
+20:46
+tickets from start to finish.
+
+20:49
+Let's take a look.
+
+20:50
+First, specialized agents,
+each with a unique skill,
+
+20:54
+are set up and put to work.
+
+20:59
+As tickets come in, case agents
+check the details and screenshots,
+
+21:04
+then pass the context to NVIDIA
+Deep Research Agents.
+
+21:11
+Triage agents look through
+past fixes, similar cases, logs
+
+21:16
+and guides, pinpointing the issue
+and finding the best way to fix it.
+
+21:27
+Resolution agents confirm
+the root cause, apply the
+
+21:30
+fix, and update the case record.
+
+21:34
+When escalation is required,
+engineers receive a fully
+
+21:38
+prepared case, including analysis,
+logs, and recommended actions.
+
+21:44
+ServiceNow agents are built on
+a system of models, including
+
+21:48
+Cloud Frontier models, ServiceNow's
+APRIEL, and NVIDIA Nemotron,
+
+21:53
+using the NVIDIA iCUE Blueprint.
+
+21:56
+The data is clear.
+
+21:58
+90% of tickets are resolved
+by autonomous agents, freeing
+
+22:03
+engineers to focus on the
+hardest problems.
+
+22:14
+Isn't that cool? Now that's
+ServiceNow, ServiceNow's
+
+22:17
+team, they're amazing.
+
+22:18
+They're very advanced.
+
+22:20
+They've been not only building
+AI systems, but AI models
+
+22:26
+doing research, significant
+research, contributing that
+
+22:29
+back to the community and
+helping everyone evolve AI.
+
+22:33
+But it just shows you what's
+possible also, especially
+
+22:37
+even in a business environment.
+
+22:38
+You know, as we're building
+some of these newer, advanced,
+
+22:41
+self-evolving agents, in prototype
+or for our personal use, we
+
+22:45
+can move very quickly.
+
+22:46
+But when it comes to rolling out
+an enterprise-grade agent, it has
+
+22:50
+to be in compliance with all the
+policies of the organization and
+
+22:53
+everything that the customer needs.
+
+22:55
+It needs to be super secure,
+and there's a lot that goes into
+
+23:01
+rolling out these applications,
+but the work that they're
+
+23:03
+doing and the rest of the community
+is an inspiration for all of us.
+
+23:07
+Okay, I want to switch to
+talk a little bit about
+
+23:10
+personal assistance.
+
+23:11
+So, as we talk about OpenClaw
+and the amazing energy that
+
+23:19
+that project has brought to the
+entire developer community, even
+
+23:23
+personal community, you don't have
+to be a developer to use OpenClaw.
+
+23:26
+It's amazing how easy it is.
+
+23:29
+It's just creating so much energy.
+
+23:31
+We created a, in the park, so
+has anyone been in the park?
+
+23:36
+Awesome, a lot of people have
+been in the park.
+
+23:38
+So in the far back end of the
+park, on the left side, is a tent.
+
+23:42
+And we set up a Build-A-Claw tent.
+
+23:44
+It's kind of like Build-A-Bear,
+except for your own
+
+23:46
+personal AI assistant.
+
+23:48
+And it's been a
+lot of fun all week.
+
+23:50
+It's open the rest of the
+day, I think until 5 p.m.
+
+23:54
+I highly recommend going
+and checking it out.
+
+23:57
+You can go there, you can
+go there just by yourself.
+
+24:00
+You can bring your device with
+you, if you want to build a...
+
+24:04
+Build your own personal system,
+build a CLAW on that device,
+
+24:08
+and you can see some of the
+things that are happening there.
+
+24:11
+One thing I want to call this
+picture in the center top,
+
+24:15
+the guy teaching everyone,
+that's Peter Steinberger,
+
+24:17
+the creator of OpenClaw, he's
+super excited to have this
+
+24:23
+here and have all this energy
+around this project that he created
+
+24:26
+that now not only is everyone using
+Everything but contributing to.
+
+24:29
+You know, Toy Jensen's
+building his own claw.
+
+24:32
+Down the bottom, down the bottom
+left, that's my personal assistant.
+
+24:35
+That's my DGX Spark that's
+sitting across my desk,
+
+24:41
+cranking away for me.
+
+24:42
+You don't need much. It's
+running headless.
+
+24:44
+It has, essentially, it's
+plugged into the wall.
+
+24:46
+It's got an Ethernet jack.
+
+24:48
+It has Wi-Fi built into it,
+too, if you want to use that.
+
+24:50
+And it's running Nemotron 3
+Super, which is one of our latest
+
+24:56
+Open source models that we
+release that provides amazing
+
+25:00
+levels of intelligence.
+
+25:01
+It's a larger model, 120 billion
+parameters, and only 12 billion
+
+25:04
+are active, runs amazing on
+the DGX Spark, providing me
+
+25:10
+all the help that I need.
+
+25:13
+Even on the bottom left is a pallet
+of DGX Sparks that they've brought
+
+25:16
+to this event because everyone's
+super excited and want to buy
+
+25:20
+a Spark and get going themselves.
+
+25:21
+So I highly recommend checking
+out Build-A-Claw.
+
+25:27
+And, you know, people ask me like,
+well, what are you doing with this?
+
+25:31
+Like, you want it
+to do work for you?
+
+25:33
+Now, my recommendation is
+I'm taking baby steps because
+
+25:38
+these agents want to use all
+the resources at their disposal
+
+25:41
+to help you get certain work done.
+
+25:44
+So sometimes they may go a
+little further than you want
+
+25:46
+them to go, if you've been reading
+some of the posts on X or some
+
+25:51
+of the stories that are out there.
+
+25:52
+But the best way to learn
+is just to get going.
+
+25:54
+So I'm personally
+taking baby steps.
+
+25:57
+I have, I've given my claw
+a name, his name is Magic.
+
+26:01
+Magic Johnson was my
+childhood sports hero, so.
+
+26:04
+I thought that's fitting, because
+the way these things work,
+
+26:06
+they do sometimes feel like Magic.
+
+26:09
+I have it connected to my—Magic
+has his own email address,
+
+26:12
+so I haven't given him my
+email—access to my email account.
+
+26:15
+He has his own email account,
+and so I want him to understand
+
+26:19
+some of the things that are
+going on in my life.
+
+26:21
+I just forward emails to him, and
+he just kind of reads those emails.
+
+26:24
+He takes that information
+in and is now an expert at
+
+26:26
+whatever I send him.
+
+26:28
+Read-only access to my files,
+not read-write, so he has
+
+26:31
+the context of things that,
+some of my files, I have 20 years
+
+26:34
+of files, and so knows things about
+me that maybe I don't even know.
+
+26:39
+Has access to my home automation
+system, like it does things
+
+26:43
+like run my lights in my house
+and my sprinkler system, has
+
+26:46
+access to my home security system,
+so I've kind of started slow.
+
+26:50
+Giving him access to a few
+tools, a few systems, and then
+
+26:54
+he can start doing things for me.
+
+26:56
+I've been using it just a lot
+for research, but also for things
+
+26:59
+like starting to kind of alert me
+when things have happened, like you
+
+27:02
+left the garage door open again.
+
+27:05
+Some of those things can be
+like if-then type things,
+
+27:07
+like okay, if it hits nine
+o'clock at night, let me know
+
+27:11
+if I left the garage door open.
+
+27:12
+But sometimes those scenarios
+don't always work because
+
+27:15
+my personal patterns change.
+
+27:17
+But when your personal assistant
+starts learning your personal
+
+27:20
+patterns, you don't have to
+have these kind of if this
+
+27:22
+happens, then do this.
+
+27:24
+It'll think and it'll reason
+and really help you do something
+
+27:28
+that's much, much more intelligent.
+
+27:30
+So at NVIDIA, what are
+we doing about it?
+
+27:32
+So we announced a project called
+NemoClaw this week, which is really
+
+27:36
+exciting, and it's supposed to help
+developers keep these new types
+
+27:42
+of agents, these more personal
+assistants, kind of contained.
+
+27:46
+It's like on the, your left-hand
+side, on the left-hand side
+
+27:50
+are like these claws that are
+kind of a little out of control.
+
+27:53
+They're having a ton of fun,
+they're learning new things.
+
+27:55
+You're like, ah!
+
+27:56
+You know, what are you doing?
+For those of you, I have
+
+27:59
+some younger kids.
+
+27:59
+For those of you who have younger
+kids, you totally understand.
+
+28:02
+And what NemoClaw will do is
+help the claw, the personal
+
+28:06
+assistant, kind of stay
+contained in the sandbox.
+
+28:09
+Sandboxing is inherent to
+OpenClaw, but they're smart
+
+28:13
+little guys, and they want to break
+out of everything that they can
+
+28:17
+to do as much as they can possibly,
+and so it helps them just stay
+
+28:20
+within that nice, secure sandbox.
+
+28:23
+So a little more detail on
+
+28:26
+On NemoClaw, NemoClaw essentially
+has one component that we're
+
+28:30
+releasing as an open source
+project called OpenShell.
+
+28:33
+It helps not just create those
+sandboxes, but ensures that
+
+28:37
+they stay within the policies
+that you've defined.
+
+28:40
+There's a policy engine.
+
+28:41
+It even goes all the way down
+to the network level to ensure
+
+28:46
+that these agents stay within
+their sandbox and do not break out.
+
+28:51
+Also as a privacy router.
+
+28:52
+Some things that you want
+this agent to do, you want
+
+28:55
+that information to stay locally.
+
+28:57
+You want it to execute locally.
+
+28:59
+And so there's a privacy router
+built in where when you need it
+
+29:04
+to use the local resources, use the
+local AI models, it'll stay local.
+
+29:09
+But based on the policy, if
+it needs to go out to get some
+
+29:12
+information, like search the web,
+
+29:14
+My agent's using the Perplexity
+API to search the web.
+
+29:18
+I have given it that authority
+to go do that, so if it feels
+
+29:21
+like I don't have the information
+locally, it'll navigate out
+
+29:24
+and use the Perplexity API
+to get more information.
+
+29:27
+So a privacy router can
+do that also at more of
+
+29:30
+an enterprise-level scale.
+
+29:33
+And it's a really exciting project.
+
+29:35
+We're contributing all of this work
+into OpenClaw, and so we're very
+
+29:39
+happy to be working with that team.
+
+29:42
+So this is all now
+available online.
+
+29:45
+The team's worked really hard,
+really fast, and now it's
+
+29:48
+available to everyone.
+
+29:49
+So it's a project worth following.
+
+29:52
+Another thing that I mentioned
+that I'm personally using,
+
+29:56
+Nemotron 3 Super, it's a model
+we're very proud about.
+
+29:59
+Our goal with Nemotron as well
+as our other open source models
+
+30:03
+like Cosmos for understanding
+the physical world, Alpamayo
+
+30:09
+to help with autonomous vehicles
+and self-driving.
+
+30:13
+We've got models, Clara models
+for healthcare and so on and
+
+30:17
+so forth, BioNemo models.
+
+30:20
+With Nemotron, as well as
+these other model families,
+
+30:23
+our goal is to not just make
+really good models, fully
+
+30:29
+open them up to the community.
+
+30:31
+So the model weights are open.
+
+30:33
+We try and open up as much
+data as possible.
+
+30:36
+This enables the community to
+take these models and further
+
+30:39
+work on them and make these
+models great for them.
+
+30:41
+So not only are they highly
+accurate, and we try and make
+
+30:44
+our models as efficient as
+possible so it uses the underlying
+
+30:47
+infrastructure as well as it could.
+
+30:49
+We're trying to open as much
+up as we can, and here on
+
+30:54
+this chart, there's a new benchmark
+called PinchBench, which is
+
+30:59
+rightfully named, and you can see
+the models right above that are all
+
+31:04
+big, big proprietary cloud frontier
+models, the leading models that
+
+31:10
+we all know, Cloud and GPT, and
+there's Nemotron 3.0 right under
+
+31:15
+that, so we're extremely proud.
+
+31:19
+And we're so proud, you see a
+lot of us wearing these little
+
+31:21
+guys around the show, so we're all
+having a lot of fun with OpenClaw.
+
+31:28
+And then, where do you
+run these things?
+
+31:31
+Well, you can run these new types
+of agents everywhere, but one thing
+
+31:35
+that's kind of a phenomenon...
+
+31:37
+As you know, we mostly do
+everything up in the cloud
+
+31:40
+or in a big data center, and
+the personal devices have
+
+31:44
+kind of faded away a little bit.
+
+31:46
+Like, you know, I felt like
+it was 10 years ago, we all
+
+31:48
+had like a NAS box or something on
+our desk, and it did things for us.
+
+31:51
+Now everything's
+becoming a cloud service.
+
+31:52
+Well, the personal assistants
+are starting to shift back
+
+31:56
+to the desk again.
+
+31:56
+Like I showed you my DGX
+Spark that's running my
+
+31:59
+personal assistant.
+
+32:01
+Having that locally, one,
+it makes it more affordable.
+
+32:04
+You buy the device and it uses
+all the resources of that device
+
+32:07
+and it doesn't run up a big bill,
+which is kind of nice and helps.
+
+32:10
+Also, it's sitting right there.
+
+32:12
+If it's not behaving properly, I
+can go, you know, slap it around
+
+32:15
+a little bit, I can unplug it.
+
+32:17
+And that's actually kind of nice.
+
+32:21
+And so DGX Spark has been a
+really fun device we started
+
+32:23
+shipping last year.
+
+32:24
+We have a new type of
+device, the DGX Station.
+
+32:27
+Think of the DGX Spark as
+like what you saw.
+
+32:28
+It's this little device, it's
+like the size of a Mac Mini,
+
+32:31
+sits on your desk.
+
+32:32
+DGX station is like the size
+of a gaming computer.
+
+32:36
+It's a workstation.
+
+32:38
+It has an amazing amount of power.
+
+32:39
+It's more expensive, but it can
+run frontier class, trillion
+
+32:44
+parameter models.
+
+32:45
+You could use it as a workstation
+for a team or a group.
+
+32:51
+And I think some of the mindset
+could be like, hey, if I'm going to
+
+32:55
+add to this team, maybe I'll make
+that investment, I'll get a device
+
+32:59
+like that, it's like hiring another
+employee, and it'll make the
+
+33:02
+whole team more and more efficient.
+
+33:04
+So there's a whole new class
+of devices that it's worth
+
+33:07
+learning about and understanding
+how they work because they
+
+33:11
+may fit into your world and your
+system really, really, really well.
+
+33:17
+So I'll wrap up with kind
+of where do you begin?
+
+33:21
+So when I asked the question
+at the beginning, how many
+
+33:24
+of you are using these assistants
+on a regular basis?
+
+33:28
+Because really the best place
+to start is just jumping in.
+
+33:31
+A lot of us use
+ChatGPT or Perplexity.
+
+33:37
+A lot of us, do a lot of you
+subscribe, personally subscribe
+
+33:40
+to these services?
+
+33:41
+Versus using the free tier?
+Yeah, about half of you.$
+
+33:43
+20 a month.
+
+33:45
+It's like just sacrificing
+
+33:48
+three drinks at Starbucks
+a month and you can have your
+
+33:50
+own advanced AI assistant.
+
+33:52
+It's not too bad.
+
+33:54
+Just use the tools.
+
+33:55
+Some of these I have up here
+are some of the more
+
+34:00
+It's rolling out now to more
+advanced subscribers of Perplexity,
+
+34:04
+but it looks like it's going
+to be coming to all Perplexity
+
+34:07
+subscribers soon, where it
+has a component that's installed on
+
+34:12
+your desktop, so it has access to
+some of your local resources, so it
+
+34:15
+can do things for you using your...
+
+34:17
+Tools on your computer
+are really exciting.
+
+34:19
+Same with like Cloud Code
+and Cloud Cowork that was
+
+34:22
+built off of Cloud Code.
+
+34:24
+They're just amazing tools.
+
+34:25
+I highly recommend using them.
+
+34:28
+If it's at work and your IT
+professionals are saying like,
+
+34:31
+no, no, you can't use them in
+our environment, keep pushing them.
+
+34:33
+They need to say yes.
+
+34:35
+We all want to use these tools.
+
+34:36
+We want to help them do our
+job better, be more effective
+
+34:39
+at what we're doing.
+
+34:40
+You know, push them to use
+these tools because they are
+
+34:44
+extremely effective.
+
+34:46
+Second, unlock your data.
+
+34:48
+I know this sounds a little bit
+scary, but if you're thinking
+
+34:52
+about whether it's in your
+work environment at home, if
+
+34:56
+your AI doesn't have access to your
+data, well, how can it really help
+
+35:00
+you in what you're trying to do?
+
+35:02
+So one of the first steps to
+get going is just ensure that
+
+35:05
+your data is available to the AI.
+
+35:07
+Yes, you want it to follow the
+proper security policies and access
+
+35:11
+controls and stuff, but it is worth
+
+35:15
+Processing the data and making
+it available to AI, whether it's
+
+35:19
+structured data like a database
+or unstructured data like files.
+
+35:24
+Unstructured data, you may put
+it into a retrieval augmented
+
+35:27
+generation pipeline.
+
+35:28
+I point to build.nvidia.com because
+just like with that IQ blueprint
+
+35:32
+for building an AI agent, we have
+a blueprint there that also helps
+
+35:35
+you build a retrieval augmented
+generation or RAG pipeline.
+
+35:39
+There's a blueprint for that.
+
+35:40
+So it starts with unlocking
+your data, because now the
+
+35:43
+AI has access to the knowledge
+of your organization, your
+
+35:45
+business, or in the case of
+Claws, in our personal life.
+
+35:49
+So a lot of it starts there.
+
+35:52
+And the other is creating
+your personal assistant.
+
+35:55
+Building your own claw.
+It's a ton of fun.
+
+35:57
+I highly recommend taking it slow.
+
+35:59
+When you install OpenClaw for
+the first time, it takes you into
+
+36:02
+an assistant where you can answer
+a bunch of questions, yes or no.
+
+36:05
+It's okay to say no
+to a bunch of them.
+
+36:07
+You can start slow.
+
+36:08
+And then slowly learn and enable
+them to do more and more things.
+
+36:12
+And you'll find out you'll
+have an extremely helpful
+
+36:15
+friend sitting beside you 24-7.
+
+36:18
+So when you're sleeping or you're
+hanging out with your friends or
+
+36:22
+you're playing with your kids, your
+personal assistant can be doing
+
+36:25
+things that you'd want it to do.
+
+36:28
+Okay, so I'm going to wrap up
+now with one more video from
+
+36:33
+our friends at Edison Scientific,
+new spin-out of a research
+
+36:38
+lab that is doing amazing things
+in the area of science, creating
+
+36:41
+AI scientists to take essentially
+six months of work and compact
+
+36:46
+it down into an overnight effort.
+
+36:48
+So, and this is going to help,
+things like this are going
+
+36:50
+to help us solve some of the
+biggest challenges that we're
+
+36:53
+facing in humanity, so check
+this out from Edison Scientific.
+
+36:59
+A new wave of AI has arrived.
+
+37:01
+AI can go beyond answering
+what's and how's and help do.
+
+37:07
+Scientific research is expensive
+and time-consuming.
+
+37:10
+Reading papers, running analyses,
+testing hypotheses,
+
+37:15
+Edison Scientific is building
+Cosmos, an AI scientist that
+
+37:19
+can compress a six-month research
+cycle into one day.
+
+37:24
+Cosmos is not a single model.
+
+37:26
+It's a coordinated system of agents
+running on NVIDIA's AI models,
+
+37:30
+compute, and CUDA libraries.
+
+37:33
+Customized open-source Nematron
+models handle specialized
+
+37:36
+tasks, while cloud models
+provide general intelligence.
+
+37:40
+It starts with a prompt to see
+how small genetic changes in the
+
+37:44
+brain might lead to Alzheimer's.
+
+37:47
+The Edison Literature Agent uses
+Nematron Parse to scan millions of
+
+37:51
+peer-reviewed papers, patents, and
+clinical trial records, separating
+
+37:55
+text, figures, and formulas.
+
+37:58
+From there, frontier models
+can extract insights from
+
+38:01
+decades of Alzheimer's research.
+
+38:04
+The Edison Analysis Agent
+processes large-scale biological
+
+38:07
+data, accelerated by CUDA
+libraries, cuML and cuDF, and
+
+38:11
+interpreted by Nematron to identify
+statistically significant genetic
+
+38:16
+patterns linked to cell loss.
+
+38:18
+And finally, the Edison Molecules
+Agent uses a model trained
+
+38:22
+with NVIDIA NIMO RL to reason
+over chemical structures and
+
+38:26
+propose molecules that help
+prevent cell loss.
+
+38:30
+Edison is advancing the search to
+cure diseases like Alzheimer's and
+
+38:34
+accelerating the pace of discovery
+across every domain of science.
+
+38:43
+So thank you all for coming.
+
+38:45
+Enjoy the rest of the day
+today, final day at GTC.
+

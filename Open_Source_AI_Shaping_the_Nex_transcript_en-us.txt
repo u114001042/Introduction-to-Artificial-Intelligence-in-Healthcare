@@ -1,0 +1,2891 @@
+Transcript Powered by AI
+
+Open Source AI Shaping the Next Era of Intelligent Digital Workers
+
+
+00:05
+I'm Kerri Briske and I'm okay
+Jensen actually spent a lot
+
+00:09
+of time on this slide I'll tell you
+something I actually gave this talk
+
+00:12
+to what we call our sales bootcamp
+kickoff weekend on Saturday and
+
+00:16
+there's nothing more nerve-wracking
+than giving this presentation with
+
+00:19
+Jensen sitting right in the front
+row staring up at you but when he
+
+00:23
+does listen to us and he hears our
+presentations he kind of takes some
+
+00:26
+things back into his keynote and
+
+00:28
+I was really impressed that
+he essentially took the
+
+00:30
+essence of the slide.
+
+00:32
+And, okay, so we had the ChatGPT
+moment at the end of 2022.
+
+00:37
+We had the DeepSeek moment
+in January of 2025 last year.
+
+00:40
+So the ability for syncing tokens,
+reasoning models, and then we're
+
+00:45
+having our OpenClaw moment now.
+
+00:48
+You could feel it in the keynote,
+we talked about it, but it's really
+
+00:51
+not just about reasoning, it's
+about agents working with agents.
+
+00:55
+When we saw tokens, you know,
+I had this conversation with
+
+00:59
+customers maybe a year ago,
+and we were like, wow, you're
+
+01:03
+spending maybe 10,000 tokens
+just to answer a question, and
+
+01:07
+people really didn't believe us.
+
+01:09
+And then once we had agents
+talking with agents, or if
+
+01:11
+you're using coding agents, you
+can see the tokens being generated.
+
+01:14
+You're having tens of thousands,
+if not hundreds of thousands
+
+01:19
+of tokens being generated.
+
+01:20
+So we saw, I think there was a
+report from Anthropic, when they
+
+01:24
+saw agents working with agents,
+their compute demand went up 15x.
+
+01:28
+And we saw Jensen talking
+about that, where compute
+
+01:31
+equals intelligence.
+
+01:33
+We had a nice, fun little video,
+but if you take a moment to kind
+
+01:36
+of think about this, what the video
+didn't talk about is that OpenClaw
+
+01:41
+is a small community project
+that has really impacted the world.
+
+01:45
+And he mentioned
+it surpassed Linux.
+
+01:47
+But if you think about what Linux
+was, it was a small community
+
+01:50
+project over 30 years ago.
+
+01:52
+And what happened? It became
+to underpin the digital
+
+01:55
+economy, from mobile computing
+to high-performance computing
+
+02:00
+labs and cloud infrastructure
+to AI computing infrastructure
+
+02:06
+as we know it today.
+
+02:08
+So if we think about the impact
+that Linux had in over 30
+
+02:10
+years, and we've already seen
+the importance and popularity
+
+02:13
+of OpenClaw, you can stand
+to reason that this is a really
+
+02:16
+important moment that we need
+to embrace and think about.
+
+02:21
+When we talk about AI agents,
+we've discussed this in the past.
+
+02:24
+Jensen kind of introduced this
+concept at CES last year, 2025.
+
+02:30
+And I've been in a lot of
+customer meetings and a lot
+
+02:32
+of executive briefing centers.
+
+02:34
+And we've had to describe an agent.
+
+02:35
+We had to explain, OK,
+there's an agent.
+
+02:38
+And this agent can think and reason
+about something and make a plan.
+
+02:43
+and go act on it and I had a lot
+of people say yeah but that does
+
+02:46
+that really happen is this just
+a vision is this really happening
+
+02:50
+you know we are the AI company that
+works with every AI company and
+
+02:53
+so we saw it happening and I could
+say yes you know we're using agents
+
+02:57
+today we're using agents for coding
+and I'm going to talk a little
+
+02:59
+bit about coding agents in a bit.
+
+03:02
+But being able to spawn off
+subagents that have skills
+
+03:06
+to go get stuff done and come
+back, access tools, run compiled
+
+03:11
+code in a sandbox that you
+don't want to be able to access
+
+03:14
+other parts of your system, these
+are all really important parts.
+
+03:17
+And so then I used
+to show this slide.
+
+03:20
+And it really actually overwhelmed
+a lot of people when I would
+
+03:23
+say, okay, now we just described
+one agent to you, but what
+
+03:26
+about when you have not just one
+agent, but you have multi-agents
+
+03:33
+working, agents to agents working
+with each other, and everyone
+
+03:36
+thought, whoa, is that real?
+
+03:37
+That can't be real.
+
+03:38
+A lot of stuff has
+to happen before.
+
+03:41
+We can have agents
+talking with agents.
+
+03:42
+And of course, you saw agent
+to agent protocol, a lot of
+
+03:46
+protocols happening to be
+able to get us to this era
+
+03:49
+of agents talking with agents.
+
+03:50
+And now what we're seeing is that
+you have, you know, these agents
+
+03:54
+now autonomously doing things on
+your behalf, not just thinking and
+
+03:57
+planning and talking, but doing.
+
+03:59
+And so think about all of
+that code that's happening.
+
+04:04
+And so now, you have this
+moment, so I just described
+
+04:07
+the moment of OpenClaw, you
+have this multi-agent fan-held
+
+04:10
+swarm, writing code, generating
+code, talking to each other,
+
+04:12
+getting stuff done with Tokens.
+
+04:14
+And I just, I couldn't put
+it more perfectly than Andre
+
+04:18
+Karpathy, when he said that, let
+me go forward for a second, we're
+
+04:23
+going to need a lot more compute.
+
+04:25
+To go to get where we're going a
+lot more compute to get where we're
+
+04:29
+going so I'm going to go back for
+a second here so think about that
+
+04:32
+a lot more compute to get where
+we're going we have introduced
+
+04:35
+scaling laws to you before we had
+the three scaling laws previously
+
+04:38
+I'm going to talk about two of them
+today one is that and again when
+
+04:42
+we think of scaling laws we think
+of compute equals intelligence
+
+04:46
+so the more compute you have the
+more intelligent a model can get.
+
+04:49
+And so there's pre-training
+scaling law for the more data,
+
+04:53
+the larger the model parameter
+size, the more compute you
+
+04:56
+have, the better it's going to get.
+
+04:58
+And we see that happening
+still to this day.
+
+05:01
+You see there's a lot of
+open models that are one
+
+05:03
+trillion parameters.
+
+05:04
+We know that some of the
+proprietary models are even
+
+05:07
+bigger than that.
+
+05:08
+So we have that pre-training.
+
+05:10
+The pre-training is to put
+the knowledge in.
+
+05:12
+And the post-training, and I'll
+go over that in more detail later
+
+05:15
+in my talk, but post-training, the
+more you train it to behave, you
+
+05:20
+do reinforcement learning, the more
+environments that you can provide
+
+05:24
+that model to go work out in.
+
+05:26
+And so these agentic systems
+of both inference and synthetic
+
+05:31
+data generation plus training.
+
+05:33
+During the all-in-one loop,
+we call that reinforcement
+
+05:35
+learning, the more compute
+you throw at it, because you could
+
+05:38
+do synthetic data generation, the
+more intelligent the model gets.
+
+05:41
+With long thinking, the same
+thing with reasoning models,
+
+05:44
+we saw the more it thought,
+the more it reasoned, the more
+
+05:47
+intelligent the answer would be.
+
+05:49
+And so we saw these three
+scaling laws, and now we have
+
+05:51
+that fourth scaling law.
+
+05:52
+The more agents can work with other
+agents that can go get stuff done,
+
+05:55
+that report back, and get to an end
+goal together, the more purposeful
+
+06:00
+it is, the more intelligent,
+the more useful that agent is.
+
+06:03
+And so that's what we're seeing.
+
+06:04
+That's how we describe the
+four scaling laws.
+
+06:06
+Jensen even touched on that today.
+
+06:08
+I think it's worth showing again.
+
+06:10
+We're going to need a lot
+more compute to get where
+
+06:12
+we're going, and Jensen thinks
+we're still not even going
+
+06:14
+to have enough, apparently,
+is what he said in his keynote.
+
+06:17
+We introduced, when we talk
+about the agent, when we talk
+
+06:21
+about we have the NVIDIA Agent
+Toolkit, so we have, it doesn't
+
+06:25
+take just an LLM on its own,
+of course you have to have
+
+06:28
+subagents, you have to know how
+to place the compute, we do that
+
+06:31
+with inference with Dynamo, you
+have to be able to make the agent
+
+06:33
+get better, you have to improve
+the LLM, you have to profile
+
+06:36
+the system, you have to be able
+to understand the memory and how to
+
+06:41
+operate the memory and the context
+and memory management, and then you
+
+06:44
+have to be able to keep it safe.
+
+06:46
+And that's when we introduce
+OpenShell, which Adil will
+
+06:48
+talk to you about.
+
+06:50
+Before we get deeper into
+agents, I'm going to talk
+
+06:52
+a little bit about open models.
+
+06:55
+So, open models are kind of
+having their moment.
+
+06:58
+Because we've talked about in
+the past where and we've seen
+
+07:01
+that open models are getting closer
+and closer to frontier capability.
+
+07:04
+And when you hit that API
+endpoint to a frontier model,
+
+07:08
+it's a proprietary model.
+
+07:09
+So, you can't really judge and
+compare and evaluate one model
+
+07:14
+An open model against an entire API
+because there's a system of models
+
+07:18
+happening in the background there.
+
+07:20
+But what we have seen over the
+last year, and this is a report
+
+07:24
+from OpenRouter, if you're not
+familiar with OpenRouter, it's kind
+
+07:26
+of like a switchboard, a developer
+platform to connect developers with
+
+07:31
+open models for their applications.
+
+07:33
+And while this is a small
+sample of the total...
+
+07:38
+We do work with every ecosystem
+partner, and it's about the
+
+07:41
+same growth, so I thought
+it was a really good sample
+
+07:43
+size, is that open models
+usage have grown in production
+
+07:48
+by at least 35x across the board.
+
+07:51
+So the amount of tokens being
+generated, not just downloads,
+
+07:54
+but the amount of tokens being
+generated in general by open
+
+07:59
+models has grown.
+
+08:01
+By 35X and just in February
+alone, which is the shortest
+
+08:04
+month of the year, that OpenRouter
+saw that open models were
+
+08:10
+48% of the tokens generated.
+
+08:12
+So you can see that the importance
+because as people putting
+
+08:14
+them into their systems or putting
+them into production, production
+
+08:18
+applications for AI applications,
+they need to be able to reduce that
+
+08:21
+cost, put it off to parts of the
+application off to an open model.
+
+08:27
+NVIDIA happens to have
+fantastic open models.
+
+08:30
+Jensen talked about the
+six families from BioNemo
+
+08:33
+to Alpamio and Cosmos.
+
+08:35
+We have ours.
+They're called Nemotron.
+
+08:37
+If you're familiar with our
+models before, it's a combination
+
+08:40
+of neural modules.
+
+08:41
+That's what Nemo stood for,
+not the cute little fish.
+
+08:44
+And Megatron, the biggest,
+baddest transformer.
+
+08:47
+And we brought those two
+teams together to really
+
+08:49
+make one great model.
+
+08:51
+And it's really shown.
+
+08:53
+We have three sizes on our
+base language model, which
+
+08:56
+is you can think of nano, super,
+and ultra, as small, medium, large.
+
+09:00
+And then for each one of those,
+we give them visual understanding
+
+09:04
+and video understanding.
+
+09:06
+We're giving them speech as
+well as embedding and even
+
+09:10
+safety knowledge.
+
+09:11
+We released Hemotron 3
+Nano in December.
+
+09:14
+It was a fantastic launch.
+
+09:16
+All of these models, architecture,
+I won't dive into the
+
+09:19
+architecture here, but
+if you have questions, let me know.
+
+09:21
+They're all a mixture of experts.
+
+09:24
+The model itself is not just
+a transformer either.
+
+09:27
+It's a hybrid model, so it's
+a state space model plus a
+
+09:31
+transformer and a mixture
+of experts all in one.
+
+09:34
+So not only is it highly
+intelligent, it's highly efficient.
+
+09:39
+Because of that scaling law,
+we're making more efficiency
+
+09:42
+in the architecture of our models
+to bring the token efficiency down
+
+09:45
+so you can run more tokens on the
+
+09:50
+And I'm back.
+
+09:52
+You can run more tokens on
+the same amount of hardware.
+
+09:55
+OK, and so Nano launched.
+
+09:57
+And then if you were paying
+attention, last week we launched
+
+10:01
+Nemotron 3 Super.
+
+10:02
+It was our best launch ever.
+
+10:04
+It was our most intelligent model.
+
+10:05
+Let's give us a round of applause.
+
+10:06
+We're really proud of it.
+
+10:10
+We had like every CSP and
+integrating it natively.
+
+10:14
+We had every inference service
+provider providing it as an API.
+
+10:19
+Really a lot of our enterprise
+ISV partners integrating into
+
+10:23
+their production.
+
+10:24
+Super is the best model we had
+yet, but I can show you that too.
+
+10:30
+Oh, and Super, this is actually
+super important, pun intended,
+
+10:35
+Super took the number one
+open model on PinchBench.
+
+10:39
+And so if you're not familiar
+with PinchBench, it's a
+
+10:42
+way of evaluating models
+for getting things done
+
+10:44
+in the real world, like coding
+tasks, tool calling, specifically
+
+10:48
+working through OpenClaw.
+
+10:51
+And so, and I think Jensen
+tried to point it out, but
+
+10:54
+we were number four overall.
+
+10:57
+And in the world for PinchBench,
+and so you can only see the
+
+11:00
+three above us, and we're
+not that far away.
+
+11:03
+So we're pretty excited about
+where we landed, and not only
+
+11:06
+were we really excited about
+Super, but we had even more news.
+
+11:12
+If you're familiar
+with our roadmap,
+
+11:14
+We are committing to these models,
+these open models, like they're
+
+11:18
+libraries, because we believe
+that this is the future of software
+
+11:22
+development and you should be
+able to depend on the release and
+
+11:25
+cadence and the quality of a model
+and the model that you put out.
+
+11:29
+So we're going to keep doubling
+down on the models that we
+
+11:32
+put out because it's important
+to us to have a thriving ecosystem.
+
+11:36
+And we actually build these
+models for ourselves to be
+
+11:38
+able to learn how to scale
+our hardware architecture systems.
+
+11:42
+Yes, when we released Nano
+in December, we said, you
+
+11:45
+know what, this is the first
+of them, we're not done at Nano,
+
+11:48
+we're going to do a Super, we're
+going to do another Ultra, Ultra
+
+11:52
+just finished the base training
+last week, and as of right now,
+
+11:56
+it is the best base model in the
+world, give us a round of applause
+
+12:01
+for that, yeah, okay, it is
+the best base model in the world,
+
+12:05
+and it's two times more efficient.
+
+12:08
+Then the best open model
+in the world, too.
+
+12:10
+So again, doubling down on
+that efficiency of the model
+
+12:13
+architecture, as well as the
+intelligence, we're going
+
+12:16
+to start post-training it now.
+
+12:18
+So if there's customers and
+partners out there that like
+
+12:21
+to pick up a base model, and
+we'll talk about if you understand
+
+12:24
+the difference between that
+base model and the post-training.
+
+12:26
+The base model is about the
+knowledge, the post-training
+
+12:28
+is about what to do with the
+knowledge and how to behave.
+
+12:31
+So the model doesn't know
+how to behave yet, but if
+
+12:33
+you're into post-training
+and reinforcement learning, You
+
+12:35
+know how to do full fine-tuning?
+
+12:38
+This is a fantastic model
+for you to pick up.
+
+12:40
+I'm going to go through a
+couple more of our models.
+
+12:44
+PARSE and RAG, really about
+document intelligence.
+
+12:47
+PARSE is a really tiny model,
+so it's a big bang for your
+
+12:51
+buck because it has the
+best document intelligence
+
+12:54
+to be able to understand
+the structures of a document.
+
+12:57
+It had a little bit of air
+time in the keynote.
+
+12:58
+If you look very quickly for
+Edison Scientific, you're
+
+13:01
+being able to understand
+
+13:04
+Unstructured data, lots of PDFs
+in the healthcare industry,
+
+13:09
+being able to understand studies
+for Alzheimer's research is
+
+13:12
+just one example of, I'm sure
+you have a lot of PDFs that
+
+13:15
+you have to go in and understand
+and put the knowledge together.
+
+13:19
+And then we also have RAG for
+retrieval and embedding and
+
+13:23
+we're the number one multilingual
+and multimodal embedding model
+
+13:28
+out there and it has really
+great performance too, so
+
+13:32
+we're proud of our document
+intelligence models as well.
+
+13:36
+And lastly, one thing that
+we're announcing this week,
+
+13:39
+we're doing an early access
+of Nemotron Speech, specifically,
+
+13:44
+I'm going to announce it in a
+second, if you've ever worked with
+
+13:46
+speech models, end-to-end, there's
+ASR, there's an understanding
+
+13:50
+in the middle, and there's
+a text-to-speech at the end.
+
+13:52
+And so when you're doing this,
+if you've ever, it's called
+
+13:55
+end-to-end speech, we normally
+have cascading pipelines,
+
+13:58
+but if you've ever talked to
+your home assistant, who's, I'm not
+
+14:00
+going to name names, I'm not going
+to call out brands, but if you've
+
+14:03
+ever had your home assistant,
+you ask a question, and it keeps
+
+14:06
+talking, or you call a doctor's
+office, and it keeps talking,
+
+14:09
+and you just want to kind of
+butt in and say, because you know
+
+14:11
+the answer, you know where it wants
+to go, and it just keeps talking,
+
+14:14
+and you end up just saying stop.
+
+14:16
+Just stop.
+
+14:17
+So you can see here, you know,
+what do you have for breakfast?
+
+14:20
+And you say, mm-hmm. And it
+just keeps talking.
+
+14:22
+We've got eggs and burritos and
+like, well, I want pancakes.
+
+14:25
+And so it keeps going. We've
+got French toast.
+
+14:26
+And then you just say, stop.
+
+14:29
+Well, what we have, you've
+ever heard of PersonaPlex?
+
+14:32
+It's an NVIDIA research model
+that we'd put out.
+
+14:35
+We picked up that research,
+we pulled it into the
+
+14:37
+product, and we're announcing
+Nemotron VoiceChat.
+
+14:40
+And VoiceChat is highly natural,
+so you can see here that you're
+
+14:44
+able to give that background
+as a confirmation if you know
+
+14:48
+what the model's saying, and
+it knows not to stop.
+
+14:51
+But give you time and keep
+going but also kind of even
+
+14:54
+if you pause it won't try
+and hallucinate and talk over
+
+14:57
+you and then you're able to
+speak what you want to say and then
+
+15:00
+keep going and it's going to be you
+can pop in your own ASR, you can
+
+15:04
+pop in your own LLM so it's highly
+fine-tunable and it's very natural.
+
+15:10
+And so as of today, we are
+on the Artificial Analysis
+
+15:13
+benchmark for having this really
+great reasoning model, as well as
+
+15:18
+really great at this naturalness.
+
+15:21
+So like turn-taking,
+pause-handling, really it's
+
+15:24
+called conversational dynamics.
+
+15:26
+And so when you say that term
+conversational dynamics, it's
+
+15:28
+all the things of turn-taking,
+pause-handling, user or agent
+
+15:32
+back-channeling, interruptions,
+as well as latency.
+
+15:35
+So we're really
+proud of this model.
+
+15:37
+It's in early access today.
+
+15:40
+Okay, so I'm going to talk
+about that second scaling
+
+15:44
+law post-training, because
+it was a section that didn't make
+
+15:47
+the keynote, and we're all probably
+happy for that, because it went
+
+15:50
+a little long anyway, so I'm glad
+that we can have its time here.
+
+15:55
+So when we talk about
+post-training, it's about
+
+15:57
+what makes the model learn
+how to behave, gives it
+
+15:59
+additional knowledge, more
+compute, synthetic data generation,
+
+16:03
+being able to create reinforcement
+learning environments.
+
+16:07
+So the more environments
+that you expose a model
+
+16:09
+to, it's like the test.
+
+16:11
+And once you give that model
+a test and you have a verifier
+
+16:14
+at the end, like the teacher
+to go and grade it to say, yes,
+
+16:16
+you did well, or no, you didn't.
+
+16:18
+Just like with test taking,
+even if you get the answer
+
+16:21
+wrong, it's still a learning,
+a chance to learn.
+
+16:24
+So we send all that data back to
+the model and we keep training,
+
+16:28
+we even generate more data
+of the good data.
+
+16:31
+And so this actually takes
+a lot of not just compute
+
+16:35
+but optimizations for inference
+because it's running inference as
+
+16:39
+well as training at the same time.
+
+16:43
+And what you do with these
+reinforcement, we have
+
+16:46
+a reinforcement learning
+framework called NeMo RL.
+
+16:48
+We also have a way to integrate
+gym environments, so create
+
+16:52
+your own gym environment.
+
+16:53
+The more you work out your
+model, maybe it has a leg
+
+16:56
+day, but then you add arms
+and it's strong from top to bottom.
+
+17:00
+But you can see when we added
+more RL environments, the
+
+17:04
+amount that you can jump in
+accuracy, so being able to jump
+
+17:09
+from that last super release at the
+end there all the way to the front
+
+17:15
+where the super that we released
+last week, that's the impact of RL.
+
+17:19
+And our customers
+are seeing that too.
+
+17:20
+So RL can be domain specific.
+
+17:23
+So if you think about, I told
+you I was going to talk about
+
+17:25
+coding environments, why do
+you think that code generators are
+
+17:28
+just having their day right now?
+
+17:30
+It seems like the killer app.
+
+17:33
+Because of the RL environments
+that were able to be created.
+
+17:36
+Because if you think about
+it, the verifier at the
+
+17:38
+end is super simple.
+
+17:40
+The code compiled.
+
+17:41
+It passed your unit test
+that you already had.
+
+17:43
+You know your code base.
+
+17:44
+So it was just an easy way.
+
+17:46
+It's like the first really
+great application.
+
+17:49
+But now we have to go identify
+sort of that long tail of domain
+
+17:53
+expertise, domain specialization
+to be able to create the test
+
+17:56
+cases and the answers for
+other models to go learn.
+
+18:01
+areas like
+
+18:03
+Chip design, you know, areas
+like scientific discovery.
+
+18:07
+And so we have a lot of
+customers working with us.
+
+18:09
+And just to give you an example of
+how different the RL environments
+
+18:13
+have to be, so we have Atlassian
+is putting together an RL
+
+18:17
+environment with NeMo Gym.
+
+18:19
+We have Edison Scientific
+putting it together.
+
+18:21
+You're going to see more of
+Edison at the end of this
+
+18:25
+RL environment with NeMo Gym.
+
+18:26
+SAP has 2,000 tools that
+we're trying to integrate
+
+18:29
+so it understands the SAP
+tool environments.
+
+18:31
+Thank you for watching.
+
+18:33
+SIEMENS, EDA, being able to
+integrate their tool environments
+
+18:36
+too so that the model knows
+how to use these chip design tools.
+
+18:41
+Okay, I'm gonna take you back in
+the Wayback Machine, 2018, we heard
+
+18:47
+a lot of predictions, we heard
+a lot from Jensen today, and back
+
+18:52
+in 2018, I was specifically looking
+for something different, and I
+
+18:56
+ran across this clip a couple weeks
+ago, and it was really kind of
+
+19:00
+eerie, it's like Nostra Thomas was
+reborn as Jensen, and I want you to
+
+19:05
+hear what he's talking about back
+in 2018, we can't hear the volume.
+
+19:12
+Alright, you're going to
+have to trust me.
+
+19:13
+I'm going to have to send it out.
+
+19:14
+Basically, Jensen is saying that
+he's talking about code generation.
+
+19:23
+He's basically saying that
+there's only so much software
+
+19:26
+that a software engineer can write.
+
+19:29
+And with AI, we can type very fast.
+
+19:31
+AI can type very fast. Very fast.
+
+19:32
+And in fact, AI can type faster
+than software engineers.
+
+19:35
+And so in the future, as long
+as there's data, as long as
+
+19:39
+there's creativity, as long
+as there's compute,
+
+19:42
+AI is going to be writing
+its own software, and if any
+
+19:47
+enterprise wants to write
+their own software in the future,
+
+19:50
+every enterprise is going to have
+to own their own supercomputer.
+
+19:54
+This was before generative models.
+
+19:56
+I mean, there was generative
+image models, but not text.
+
+19:59
+I think that was the year
+that BERT came out, and you
+
+20:01
+can do extraction.
+
+20:03
+So 2018, moments in GTC, it's
+about an hour and a half in.
+
+20:06
+Trust me, it's a good watch.
+
+20:12
+Let me see if I go back.
+
+20:14
+So with that, the NVIDIA Agent
+Toolkit, and now we're going
+
+20:18
+to, I talked about NEMO Tron
+Models, I talked about NEMO
+
+20:21
+RL, we're going to kind of
+go around the wheel here.
+
+20:24
+I'm going to invite Adil up to talk
+about the Agent Toolkit, Ecosystem
+
+20:28
+Integrations, and OpenShell.
+
+20:35
+My name is Adil,
+excited to be here.
+
+20:37
+And yeah, I'm gonna talk about
+a couple of things.
+
+20:41
+I wanna start talking first
+about my favorite sub-agent,
+
+20:44
+my favorite agent, and the cool
+part about agents is you can tell
+
+20:49
+every one of them that they're your
+favorite and you can lie and their
+
+20:53
+feelings don't get hurt, right?
+
+20:55
+Which isn't the same
+with your colleagues.
+
+20:56
+I know, but I love IQ because
+those three letters, A-I-Q,
+
+21:02
+represent an incredible body
+of work across our company.
+
+21:06
+Everything that Kerry just
+talked about, you'll see being
+
+21:09
+manifested through what we
+call an open agentic blueprint.
+
+21:12
+So let's go through that.
+
+21:14
+There's a lot on the slide.
+
+21:16
+There's a lot on the
+slide, but that's okay.
+
+21:18
+I'm gonna take you through it.
+
+21:19
+So what is AIQ?
+
+21:21
+It is a open reference blueprint
+for doing deep research
+
+21:26
+in the enterprise.
+
+21:28
+It is the equivalent of having a
+research lab at your fingertips.
+
+21:33
+It is made up of a system
+of models and a system of
+
+21:38
+agents and sub-agents.
+
+21:40
+So we publish these as an open
+reference for our ecosystem,
+
+21:44
+for our enterprise customers
+to take, customize, and
+
+21:49
+implement, and consume.
+
+21:51
+Upfront, as a user, there's
+an intent-based router.
+
+21:54
+Because not every query
+requires deep research.
+
+21:57
+In fact, what we noticed internally
+at NVIDIA when we deployed
+
+22:00
+this is more than 70% of queries,
+even though you tell them
+
+22:04
+this is a deep researcher,
+
+22:06
+are actually just shallow
+research and so we want to
+
+22:08
+be able to give you that response
+back instantaneously rather
+
+22:11
+than kick off a long running job
+right that requires deep research
+
+22:15
+but in case it does require a deep
+research this is where things get
+
+22:17
+really interesting um there's an
+it kicks it off for deep research
+
+22:22
+there's an orchestrator which acts
+as the coordinator of the entire
+
+22:27
+lab if you will there is a planner
+and that planner is responsible
+
+22:31
+for a couple things number
+one is maintaining a to-do list
+
+22:35
+You know, here's the beauty about
+digital agents is there's a lot of
+
+22:40
+analogies to how we work as human
+beings, meaning this concept of
+
+22:46
+being able to access file systems.
+
+22:48
+You're going to hear a lot
+about context engineering.
+
+22:50
+And really what we're essentially
+doing is we're mimicking how
+
+22:53
+we maintain memory as human
+beings, meaning I can't memorize
+
+22:57
+everything that's ever been said.
+
+22:58
+So what do I do?
+
+22:59
+As I see this, we take down notes.
+
+23:01
+We summarize the important things.
+
+23:04
+So I don't forget, I
+write to-do lists.
+
+23:06
+And so this context, this, what
+Kerry was bringing up earlier of
+
+23:10
+being able to access file systems
+and doing memory management,
+
+23:15
+that's what the planner do.
+
+23:15
+It maintains the list of tasks
+and to-dos, works very closely
+
+23:19
+with the orchestrator, right?
+
+23:21
+The team lead, if you will,
+and dispatches a swarm of
+
+23:25
+sub-agents to do research
+on any topic on your behalf.
+
+23:29
+And this isn't just one sub-agent
+that does research.
+
+23:32
+In fact, it is a
+team of sub-agents.
+
+23:34
+There's an evidence gatherer
+who's responsible for
+
+23:37
+getting stats and facts.
+
+23:39
+There is, I didn't know that
+was a word, a comparator
+
+23:43
+who's looking at different
+benchmarks, failure cases.
+
+23:47
+There is a horizon looker.
+
+23:50
+I don't know if I
+even got that right.
+
+23:51
+An event horizon that looks ahead.
+
+23:53
+There is one that looks
+at different frameworks
+
+23:55
+to understand like how do
+we construct the research, right?
+
+23:59
+And then at the end you have a
+synthesizer that looks across
+
+24:01
+that entire body of work and
+brings it together into a
+
+24:04
+single cohesive report.
+
+24:06
+And the loop goes back and forth.
+
+24:08
+It does inflection, right?
+
+24:10
+It goes back and forth until
+it is satisfied with the
+
+24:12
+artifact that it presented
+and it provides it to you.
+
+24:16
+And so, it's an open reference,
+it's very, very composable,
+
+24:20
+you can connect to any data
+source, we support MCP as
+
+24:24
+a protocol, as I said, right, it's
+got access to your file systems.
+
+24:31
+The other thing is, it is
+world-class in accuracy.
+
+24:35
+It is world-class in accuracy,
+and I want to take a minute
+
+24:37
+to talk about that.
+
+24:40
+We talk a lot about leaderboards.
+
+24:42
+Deep Research Bench, and there's
+two of them, Deep Research
+
+24:46
+Bench 1 and Deep Research Bench 2.
+
+24:49
+And I'm proud to announce that
+we've topped the leaderboard
+
+24:54
+across both of these benchmarks.
+
+24:58
+Thank you. Right?
+
+25:01
+This is incredible work. So,
+first of all, the difference
+
+25:03
+between the two benchmarks.
+
+25:05
+Deep Research Bench 1, yes,
+is about, you have to have
+
+25:08
+factual accuracy, but it rewards
+more stylistic sophistication.
+
+25:12
+Deep Research Bench 2, which
+is quite new, I think January
+
+25:15
+got started, is about information
+retrieval, factual accuracy,
+
+25:19
+correct categorization.
+
+25:20
+We want both.
+
+25:22
+Which means that the reports
+that you generate will be
+
+25:24
+pleasing to read, but they
+will definitely be accurate.
+
+25:27
+But let me tell you how we won
+this, and how we did so with 50%
+
+25:32
+of the query cost when compared to
+using Frontier Proprietary Models.
+
+25:36
+So first off, I mentioned
+earlier that we use a combination
+
+25:39
+of Frontier Proprietary Models
+and Nemotron 3 Super.
+
+25:45
+And so for the Orchestrator
+and Planner, you can
+
+25:48
+use GPT-5.2 or Opus.
+
+25:52
+But for our researchers, these
+different personalities, these
+
+25:56
+different specialists, we
+fine-tune a NemoClaw model.
+
+25:59
+And that's the beauty of
+having open models.
+
+26:02
+I think we generated hundreds of
+thousands of reasoning trajectories
+
+26:06
+to see what the thought process
+was across the entire system.
+
+26:10
+Some folks much, much smarter than
+me did some kind of filtering and
+
+26:14
+ended up with 67,000 trajectories.
+
+26:18
+We did some reinforcement
+learning, some post-training.
+
+26:21
+And through this combination,
+we're able to reduce the cost
+
+26:25
+of a world-class deep researcher
+for the career cost by 50%, right?
+
+26:31
+And I know he's shy, but I know
+he's in this room over here, right?
+
+26:37
+It was a Kaggle Grandmaster that
+was leading a lot of the efforts.
+
+26:39
+It was a team effort.
+
+26:41
+And he told me this. He said,
+this was harder than any Kaggle
+
+26:45
+competition he's ever been in.
+
+26:46
+And this is a Kaggle Grandmaster.
+
+26:49
+So that's why I'm super, super
+proud of this work.
+
+26:52
+And by the way, that gentleman, I
+won't say your name, but he's got a
+
+26:55
+talk at nine o'clock on Wednesday,
+and he'll take you through
+
+26:59
+what it took for us to win this.
+
+27:03
+So what I just discussed and
+took you guys through is a
+
+27:08
+long running agent.
+
+27:10
+A long-running autonomous
+agent for doing deep research.
+
+27:13
+It was autonomous in the sense
+that it would do self-reflection,
+
+27:15
+it would choose what data
+sources to go after.
+
+27:20
+Essentially, I'm describing what
+was made popular by LangChain.
+
+27:26
+Now, I don't know if Harrison's
+in the crowd, I can't see, it's
+
+27:29
+too bright, but Harrison Chase is
+the founder and CEO of LangChain.
+
+27:32
+First time I ever heard about
+chain of thoughts, this notion of
+
+27:36
+chaining together multiple outcomes
+of an LM was through Harrison.
+
+27:42
+And so, you know, they've been
+pushing the envelope forward,
+
+27:45
+especially in the enterprise.
+
+27:47
+Their Deep Agent SDK is a harness,
+which means it's an opinion instead
+
+27:51
+of tooling around the LLM, right?
+
+27:54
+Everything we showed you guys, like
+file systems, context, memory, etc.
+
+27:58
+They made that quite popular.
+
+28:00
+The Deep Researcher that we
+built and published is based
+
+28:03
+on their Deep Agent SDK, And
+so it made sense.
+
+28:07
+It made sense that we bring
+everything that is the NVIDIA Agent
+
+28:10
+Toolkit into LangChain's ecosystem.
+
+28:14
+So now, whether you're building
+your first agent or you're building
+
+28:18
+your long-running autonomous
+agents, you're gonna find
+
+28:21
+all of NVIDIA's goodness in there.
+
+28:23
+And so IQ's there, we have the
+video search and summarization
+
+28:27
+that's coming shortly.
+
+28:28
+All of the primitives that I'm
+about to talk to are represented
+
+28:32
+through their ecosystem.
+
+28:33
+Again, super proud of the
+work and super appreciative
+
+28:36
+of that partnership.
+
+28:39
+And so here are
+some enterprise ISVs.
+
+28:41
+I think Harry just
+called out a few.
+
+28:42
+Not gonna go through all these
+different use cases, but Amdocs,
+
+28:47
+I like their use case.
+
+28:49
+We have kids and when we travel,
+I always have to remind my
+
+28:52
+kids to turn off the roaming
+because then the prices get
+
+28:56
+too expensive, right?
+
+28:57
+For their cell phones.
+
+29:00
+Amdocs' use case is, if they see
+somebody's bill going up, you have
+
+29:04
+an agent that's always running.
+
+29:05
+So again, now you no longer
+have to prompt them.
+
+29:07
+These guys are actually working
+on your behalf in the background.
+
+29:11
+And so what it'll do is, if
+it sees your bill spiking,
+
+29:14
+it will do some deep research.
+
+29:16
+To figure out like, is this
+person traveling?
+
+29:18
+Is it the roaming that should
+bring up the charges?
+
+29:20
+Is there an anomaly?
+Is there a pattern?
+
+29:22
+Are they in
+Christmas? Are they, right?
+
+29:23
+And then it'll send you a heads up.
+
+29:27
+Hey, you're, you know,
+your bill's going up.
+
+29:31
+Palantir's taking these kind of
+deep researchers into the edge.
+
+29:35
+You know, they're doing video
+analytics for rodeos.
+
+29:37
+This is quite interesting.
+
+29:38
+Anyway, tons of use cases.
+
+29:40
+But let me show you how this
+all comes together.
+
+29:42
+Can you hear it?
+
+29:46
+A new wave of AI has arrived.
+
+29:48
+AI can go beyond answering
+what's and how's and help do.
+
+29:53
+When enterprise service
+operations see a spike in
+
+29:56
+ticket volumes, backlogs grow.
+
+29:59
+Response times slip.
+
+30:01
+Actual work must be accelerated.
+
+30:05
+At ServiceNow, AI agents take on
+specific roles to handle service
+
+30:09
+tickets from start to finish.
+
+30:12
+Let's take a look.
+
+30:13
+First, specialized agents,
+each with a unique skill,
+
+30:17
+are set up and put to work.
+
+30:22
+As tickets come in, case agents
+check the details in screenshots,
+
+30:27
+then pass the context to NVIDIA
+Deep Research Agents.
+
+30:34
+Triage agents look through
+past fixes, similar cases, logs
+
+30:39
+and guides, pinpointing the issue
+and finding the best way to fix it.
+
+30:50
+Resolution Agents confirm
+the root cause, apply the
+
+30:53
+fix, and update the case record.
+
+30:57
+When escalation is required,
+engineers receive a fully
+
+31:00
+prepared case, including analysis,
+logs, and recommended actions.
+
+31:07
+ServiceNow Agents are built on
+a system of models, including
+
+31:11
+Cloud Frontier Models, ServiceNow's
+APRIEL, and NVIDIA NEMOTRON,
+
+31:16
+using the NVIDIA iCUE Blueprint.
+
+31:19
+The data is clear.
+
+31:21
+90% of tickets are resolved
+by autonomous agents, freeing
+
+31:26
+engineers to focus on the
+hardest problems.
+
+31:34
+I don't know if you guys caught
+that, 90% of L1 tickets are
+
+31:38
+automatically resolved by
+these L1 Specialist Agents,
+
+31:41
+that is just absolutely incredible,
+and they require the types of
+
+31:44
+deep research that we highlighted,
+like, they deployed a swarm
+
+31:48
+of agents to resolve those,
+right, to zero those tickets, okay.
+
+31:53
+You can't be up on stage
+and talking about agents
+
+31:55
+without talking about the
+claw moment, right?
+
+31:57
+And it really, really is
+absolutely incredible.
+
+32:01
+And what I think what OpenClaw
+moment demonstrated is,
+
+32:06
+with unbounded autonomy,
+man, these agents can do
+
+32:11
+pretty much everything.
+
+32:13
+You set out a task, because
+these agents have, right,
+
+32:16
+access to a coding agent.
+
+32:17
+You set out a task.
+
+32:19
+You maybe are prescriptive
+about some things you want
+
+32:22
+them to explore or look at,
+skills being one of those
+
+32:24
+things, and you let the agent go.
+
+32:28
+It goes through a loop until
+it believes it's arrived at
+
+32:32
+the objective that you set out for.
+
+32:35
+And it is powerful, it is
+translating to outcomes, but
+
+32:40
+if you leave an agent with
+unbounded autonomy, well,
+
+32:43
+there's the agent paradox.
+
+32:45
+And from an enterprise perspective,
+we've got to think about that.
+
+32:48
+What do I mean by
+the agent paradox?
+
+32:50
+For an agent to be useful,
+for it to be autonomous, it's
+
+32:53
+got to have authority.
+
+32:55
+When you give your agent authority,
+it is more difficult to secure.
+
+33:00
+And so there's always that
+balance, right, of how much, right,
+
+33:04
+I mean, there was early on, I
+joke about this, like, my daughter
+
+33:07
+was trying to tell me, like,
+the OpenClaw ate her homework.
+
+33:12
+And I was like, yeah, but
+you didn't write it yourself.
+
+33:14
+Like, ChatGPT
+wrote your assignment.
+
+33:16
+I'm joking.
+
+33:17
+All right.
+
+33:19
+But no, but you did hear
+of these stories.
+
+33:21
+You did hear of these stories.
+And so that's why as part
+
+33:24
+of the NVIDIA Agent Toolkit,
+we announced OpenShell.
+
+33:27
+And this is an open runtime
+that is secure by design.
+
+33:33
+It essentially ensures that your
+agents are running in a sandbox.
+
+33:37
+And by default, by default
+for the sandbox, we deny.
+
+33:41
+And it is up to the administrator
+to define those policies.
+
+33:47
+What agent or what process
+gets access to write as
+
+33:51
+opposed to just reading?
+
+33:53
+And so it's sandboxes, every
+instruction is isolated.
+
+33:59
+It provides policy enforcement
+engines that run inside the
+
+34:03
+sandbox as opposed to it being
+managed by the agent.
+
+34:07
+And finally, we also have
+a privacy router.
+
+34:09
+And so the router can decide to
+say, hey, if there's sensitive
+
+34:12
+information that's there,
+I'm going to route it to an
+
+34:13
+LLM that's running locally,
+right, versus a frontier model.
+
+34:17
+And sometimes it can use synthetic
+data generation to dynamically
+
+34:21
+rewrite a query so that it
+doesn't expose any PII.
+
+34:24
+And so we're bringing a lot of
+that goodness into OpenClaw.
+
+34:30
+And so that's essentially what
+Jensen highlighted today was we are
+
+34:33
+bringing, right, we're harnessing
+the amazing energy and the autonomy
+
+34:39
+and the agency that OpenClaw
+does and working very closely with
+
+34:42
+Peter, I think I saw Peter in the
+room here earlier, Steinberger, to
+
+34:47
+bring some of those enterprise-like
+secure safety features, right,
+
+34:52
+starting with OpenShell, doing
+the privacy writing, etc.
+
+34:55
+And so, because we see, we
+believe, right, the future
+
+34:58
+ahead is super exciting.
+
+35:00
+And so that's what Project
+NemoClaw is, right?
+
+35:04
+Perfect place to run
+your clause, right?
+
+35:08
+DGX Spark has been around.
+
+35:09
+You want to run a local model, have
+it become your personal assistant.
+
+35:13
+That's how we're
+doing it at our place.
+
+35:15
+And DGX Station.
+
+35:16
+Which starts shipping
+in March 16th, which I
+
+35:21
+think is today, right?
+
+35:24
+And so, very exciting, fantastic
+environments for building
+
+35:29
+and operating your claws.
+
+35:31
+Okay, with that, I think I'm
+gonna turn it back to Kerry
+
+35:34
+to bring us home.
+
+35:36
+So, NVIDIA Agent Toolkit,
+lots of things in that
+
+35:39
+toolbox, all about helping
+you operationalize your agents.
+
+35:44
+Well, thank you.
+
+35:46
+All right, we're gonna bring Adil
+up at the end in a second here,
+
+35:49
+but I do wanna close this off.
+
+35:51
+So, we're gonna talk a little bit
+about inference really quickly.
+
+35:55
+Jensen talked about Dynamo and
+operating the data center and being
+
+35:59
+able to understand your workloads.
+
+36:00
+Thanks for watching, and I'll
+see you in the next one.
+
+36:01
+Dynamo does disaggregated serving,
+so being able to understand when
+
+36:05
+to do pre-fill, when to do decode,
+it also has KV-aware routing, it
+
+36:10
+also has a planner, it also is able
+to manage your Kubernetes, it also
+
+36:15
+does cold, like, be able to warm
+up and hot-swap models in so that
+
+36:19
+they're ready to go so you don't
+have this, you know, long period
+
+36:21
+of time before the model's ready.
+
+36:24
+Dynamo has been really successful
+and a lot of our partners
+
+36:27
+who have large-scale generative
+AI deployments and so that's
+
+36:31
+able to get you again do more
+with your tokens on the same
+
+36:34
+amount of hardware.
+
+36:36
+But what we've done is the reason
+why it's in the Agent Toolkit.
+
+36:41
+It's because you can hook up
+Dynamo to the Agent Toolkit
+
+36:43
+profiler, so being able to decorate
+your agents and understand the
+
+36:47
+workload that they're running, and
+then send those messages back to
+
+36:49
+Dynamo so it knows how to route the
+workloads within your AI factory.
+
+36:55
+And then NIM 2.0.
+
+36:57
+We've had NIM now for three
+years, and this is NIM 2.0.
+
+37:00
+We're going to have an API
+breaking change, which is
+
+37:02
+why we call it 2.0.
+
+37:04
+But we've done a lot of
+refactoring, we're basing
+
+37:07
+off of VLM now, we're also
+contributing back to VLM.
+
+37:11
+You know, Adil was
+talking about how we
+
+37:12
+are contributing to OpenClaw.
+
+37:14
+You know, these open source
+contributions, this is very
+
+37:17
+similar to the work that we've
+done with PyTorch, Kubernetes,
+
+37:21
+OpenGL, now NeMo, sorry, OpenClaw,
+and now also with VLMs.
+
+37:27
+We have a team putting
+optimizations into VLM
+
+37:29
+and then we can pull them
+back into NIM really quickly
+
+37:32
+and get that enterprise support.
+
+37:34
+We're also offering Day Zero
+NIM support, we're doing it
+
+37:38
+frictionless for the developer,
+you can get that eval container
+
+37:42
+up and running immediately, so
+you don't have to sign any license
+
+37:45
+or anything, just get started with
+the best open models right away.
+
+37:49
+The other thing that we're
+doing, and we're entering
+
+37:51
+early access with this, it's
+an internal name, so please
+
+37:54
+don't write about this anywhere,
+we're just called internally NIMD.
+
+37:58
+We're bringing the best of
+Dynamo into the NIM containers
+
+38:01
+and Nemotron Super will be that
+first early access model so you're
+
+38:04
+able to do KV cache-aware routing
+and running of Nemotron Super
+
+38:09
+with this new EA NIM container.
+
+38:13
+Okay, so things that we announced
+today, Jensen mentioned that
+
+38:17
+we had over 100 libraries and
+40 models, just kind of sums it up.
+
+38:20
+Again, the models that we
+announced were Nemotron 3, we got
+
+38:23
+the Super GA, we got the best base
+model for Ultra, we have VoiceChat,
+
+38:28
+Parse 1.2, UltraBase, we got Dynamo
+1.0, we have NIM 2.0, IQ 2.0, lots
+
+38:35
+of new stuff coming out, a number
+of leaderboards like PinchBench,
+
+38:38
+DeepBench, Fedori, OCRBench, you
+name it, we're trying to top it.
+
+38:43
+Not that the leaderboard is
+the end of it, right?
+
+38:45
+That's just table stakes, you have
+to pass your test, you know, we
+
+38:49
+all had to pass a test in our lives
+to get that certificate to say we
+
+38:52
+can go out and do our job and then
+still learn on the job, that's what
+
+38:54
+the point of these leaderboards
+are for our models, and we're
+
+38:59
+going to put it all together.
+
+39:01
+You heard about all the agents,
+all the libraries, we've got
+
+39:03
+one last really great video for
+you if the volume works, and you're
+
+39:08
+going to hear all of it coming
+together for one great partner.
+
+39:13
+A new wave of AI has arrived.
+
+39:15
+AI can go beyond answering
+what's and how's and help do.
+
+39:22
+Scientific research is expensive
+and time-consuming.
+
+39:25
+Reading papers, running analyses,
+testing hypotheses,
+
+39:30
+Edison Scientific is building
+Cosmos, an AI scientist that
+
+39:33
+can compress a six-month research
+cycle into one day.
+
+39:38
+Cosmos is not a single model.
+
+39:40
+It's a coordinated system of agents
+running on NVIDIA's AI models,
+
+39:45
+compute, and CUDA libraries.
+
+39:47
+Customized open-source Nematron
+models handle specialized
+
+39:50
+tasks, while cloud models
+provide general intelligence.
+
+39:54
+It starts with a prompt to see
+how small genetic changes in the
+
+39:58
+brain might lead to Alzheimer's.
+
+40:01
+The Edison Literature Agent uses
+Nematron Parse to scan millions of
+
+40:05
+peer-reviewed papers, patents, and
+clinical trial records, separating
+
+40:10
+text, figures, and formulas.
+
+40:13
+From there, frontier models
+can extract insights from
+
+40:15
+decades of Alzheimer's research.
+
+40:18
+The Edison Analysis Agent
+processes large-scale biological
+
+40:21
+data, accelerated by CUDA
+libraries, cuML and cuDF, and
+
+40:26
+interpreted by Nematron to identify
+statistically significant genetic
+
+40:30
+patterns linked to cell loss.
+
+40:32
+And finally, the Edison Molecules
+Agent uses a model trained
+
+40:36
+with NVIDIA NEMO RL to reason
+over chemical structures and
+
+40:40
+propose molecules that help
+prevent cell loss.
+
+40:44
+Edison is advancing the search to
+cure diseases like Alzheimer's and
+
+40:48
+accelerating the pace of discovery
+across every domain of science.
+
+40:57
+Alright, I think Amanda told
+you about NEMOTRON days, Adel
+
+41:01
+and I would just like to say,
+get hooked on the claw mania,
+
+41:04
+there's Build-A-Claw out in
+the park, DGX Park and DGX
+
+41:09
+Station is the ultimate claw
+platform, so go get it done.
+
+41:12
+Try it out, yeah.
+
+41:14
+Build your first claws.
+
+41:15
+Thank you, thank you for coming.
+Thank you guys for being here.
+
